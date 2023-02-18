@@ -1,0 +1,22 @@
+@keyframes hello {
+    0% {background-color: blue;}
+    50% {background-color: crimson;} 
+    100% {background-color: blue;}
+    
+}
+
+@keyframes test {
+    
+}
+
+body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4f/Interlaced_love_hearts-3D.svg");
+    animation-name: hello;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 400px;
+}
